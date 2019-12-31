@@ -1,0 +1,9 @@
+while True:
+    num = eval(input("Enter a number or enter exit to quit: "))
+    if num == exit:
+        break
+    
+    if num > 0:
+       print("Positive number")
+    elif num < 0:
+       print("negative number")
